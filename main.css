@@ -1,0 +1,243 @@
+
+body {
+	
+	background-color: #0d0d0d;				
+	padding-top: 1px;  }
+
+
+nav { 			            	/*first section, including logo, brand and all target links to other pages of the site*/
+	
+	background-color: #ff9167;
+	height: 114px;
+	width: 1197px;
+	margin-top: -17px;
+	margin-right: 136px;
+	margin-left: 122px;  }
+
+ul {}
+
+li {
+	
+	color: #efffd9;
+	display: inline-block;
+	font-family: 'Aclonica', sans-serif;
+	font-family: 'Baumans', cursive;
+	font-family: 'Sofadi One', cursive;
+	font-size: 23px; 
+    margin-top: 10px;  }
+
+ 						      
+.logo {						    /*logo is incorrect, was unable to find an avocado*/
+
+    font-size: 30px;  
+	margin: 38px 0 0 53px;  }
+
+.brand {
+
+	margin-left: 10px; }
+
+
+.home {
+
+	margin-left: 192px;  }
+
+.home:hover {
+
+	color: #84be91;
+	transition: 1s;  }
+
+.about {
+
+	margin-left: 40px;  }
+
+.about:hover {
+
+	color: #84be91;
+	transition: 1s;  }
+
+.case-studies {
+
+	margin-left: 40px;  }
+
+.case-studies:hover {
+
+	color: #84be91;
+	transition: 1s;  }
+
+.blog {
+
+	margin-right: 2px;
+	margin-left: 40px;  }
+
+.blog:hover {
+
+	color: #84be91;
+	transition: 1s;  }
+
+.contact {
+
+	margin-left: 30px;  } 
+
+.contact:hover {
+
+	color: #84be91;
+	transition: 1s; }
+									
+.search input { 		     /*search box does not have ability to search any database*/
+
+	color: #999;
+	box-shadow: 9px 7px 8px 0 rgba(183,183,183,183);
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+	letter-spacing: .08em;
+	margin-top: 11px;
+	margin-left: 840px;
+	padding-top: 10px;
+	padding-right: 80px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: absolute;
+	text-align: left;
+	z-index: 5;  }            /*z-index must be lower that that of div.searchicon*/
+
+div.searchicon {
+
+	color: #b7b7b7;
+	font-size: 33px;
+	margin-top: 20px;
+	margin-left: 1070px;
+	position: fixed;
+	z-index: 10;  }	          /*z-index must be greater than .search input*/
+
+img {
+
+	clear: both; 
+	margin-top: -300px;
+	margin-left: 80px;  }
+
+
+p { 					       /*second section, includes get a quote and view case studies buttons*/
+
+	font-size: 45px;
+	line-height: 104%;
+	letter-spacing: -.07em; 
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 565px;
+	padding-top: 115px;
+	position: absolute;  }
+
+div.paragraph { 
+
+	background-color: #f9fad6;
+	color: #81b66f;
+	height: 562px;
+	width: 1197px;
+	margin-top: 0px;
+	margin-right: 136px;
+	margin-left: 122px;
+	font-family: 'Aclonica', sans-serif;
+    font-family: 'Baumans', cursive;
+    font-family: 'Sofadi One', cursive;
+    left: 400px;  }
+
+.paragraph {}
+
+.statement {
+
+	font-size: 50px;
+	text-align: right; }
+									/*get a quote button, needs correct path*/
+div.quote {
+
+	background-color: #84be91;
+	color: #f9fad6 ; 
+	display: inline-block;
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .05em;
+	margin-top: 380px;
+	margin-left: 569px;
+	padding-top: 15.5px;
+	padding-bottom: 17px;
+	padding-left: 62px;
+	padding-right: 62px;
+    position: relative;
+	text-align: center;  }
+
+div.quote:hover {
+
+	background-color: #fad54a;
+	color:#6e9625; 
+	transition: 1.5s;  }
+
+div.case {								/*view case studies button, needs correct path*/
+
+	background-color: #ff9167 ;
+	color: #f9fad6;
+	display: inline-block;
+	float: right;
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .05em;
+	margin-top: -64px;
+    margin-right: 53px;
+	margin-left: 880px;
+	padding-top: 15.5px;
+	padding-right: 27px;
+	padding-bottom: 17px;
+	padding-left: 27px;
+    text-align: center;  }
+
+div.case:hover {
+
+	color: #6e9625;
+	background-color:#fad54a; 
+	transition: 1.5s;  }
+
+div.footer {				/*third section, includes the footer with icons and target links to facebook, instagram and twitter*/
+
+	background-color: #89b997;
+	height: 130px;
+	width: 1197px;
+	margin-top: -16px;
+	margin-right: 136px;
+	margin-left: 122px;  }
+
+
+.facebook {
+
+	font-size: 26px; 
+	margin-top: 26px;
+	margin-left: 477.5px;  }
+
+.facebook:hover {
+
+	color: #ff9167;
+	transition: 1s;  }
+
+.instagram {
+	
+	font-size: 29px;
+	margin-left: 45px;  }
+
+.instagram:hover {
+
+	color: #ff9167;
+	transition: 1s;  }
+
+.twitter { 
+
+	font-size: 27.5px; 
+	margin-left: 38px;  }
+
+.twitter:hover {
+
+	color: #ff9167;
+	transition: 1s;  }
+
+
+
+
