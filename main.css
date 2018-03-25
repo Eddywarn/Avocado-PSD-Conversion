@@ -208,10 +208,12 @@ div.footer {				/*third section, includes the footer with icons and target links
 
 
 .facebook {
-
+	box-sizing: content-box;
 	font-size: 26px; 
 	margin-top: 26px;
-	margin-left: 477.5px;  }
+	margin-left: 477.5px;
+	/*margin-right: -400px;*/
+    position: relative;  }
 
 .facebook:hover {
 
